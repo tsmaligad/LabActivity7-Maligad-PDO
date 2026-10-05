@@ -74,13 +74,13 @@ $posts = $stmt->fetchAll();
 
                 <div class="actions">
 
-                    <a href="POSTS/edit_posts.php?id=<?= $post['id'] ?>">
+                    <a href="edit_posts.php?id=<?= $post['id'] ?>">
                         Edit
                     </a>
 
                     <form
                         method="POST"
-                        action="POSTS/delete_posts.php"
+                        action="delete_posts.php"
                         class="inline-form"
                     >
                         <input
@@ -155,7 +155,7 @@ $posts = $stmt->fetchAll();
 
                             <div class="actions">
 
-                                <a href="COMMENTS/edit_comments.php?id=<?= $comment['id'] ?>">
+                                <a href="edit_comments.php?id=<?= $comment['id'] ?>">
                                     Edit
                                 </a>
 
